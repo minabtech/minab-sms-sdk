@@ -8,7 +8,7 @@ var minab = require('minab-sms-sdk');
 
 var api = minab.RestAPI({
     appId: 'ID',
-    authToken: 'token',
+    token: 'token',
     host: 'http://localhost:3000/api'
 });
 
